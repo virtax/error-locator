@@ -22,7 +22,7 @@ post '/error-locator' => ErrorLocator if Rails.env.development?
 ```
 
 4) ``` bundle install ```  
-5) ``` rails s ```
+5) ``` rails s ```  
 6) Open browser, when found error - click on the line with error.  
 Currently supported: Application and Full Traces.  
 Currently supported editors: Sublime Text 2, Geany.  
