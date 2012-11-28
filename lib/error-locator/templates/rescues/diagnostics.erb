@@ -4,7 +4,6 @@
     in <%=h @request.parameters['controller'].camelize %>Controller<% if @request.parameters['action'] %>#<%=h @request.parameters['action'] %><% end %>
   <% end %>
 </h1>
-<pre><%=h @exception.message %></pre>
-
+<pre><code><%=h @exception.message %></pre></code>
 <%= render :template => "rescues/_trace" %>
 <%= render :template => "rescues/_request_and_response" %>

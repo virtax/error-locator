@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    error-locator (0.0.3)
+    error-locator (0.0.5)
       rails (> 3.0.0)
 
 GEM

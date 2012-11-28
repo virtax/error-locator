@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = ErrorLocator::VERSION
   s.authors     = ["Partsyrniy Dmitriy"]
   s.email       = ["liks@mail.require"]
-  s.homepage    = "http://www.google.com"
+  s.homepage    = "https://github.com/virtax/error-locator"
   s.summary     = "Locate error in editor from error stack"
   s.description = "Set $EDITOR environment variable to your desired editor, add 'error-locator' gem to your gem file and add ' post '/error-locator' => ErrorLocator' to your routes.rb. Click on a stack trace line in the browser."
 
